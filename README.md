@@ -5,7 +5,7 @@
 ### 使用方法如下
 
 #### 例如 aarch64平台 
-```bash
+```yaml
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
 ```
 
 #### 也可以指定下载的目录  默认为/opt/musl_gcc/
-```bash
+```yaml
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -40,7 +40,7 @@ jobs:
 ```
 
 #### target可选架构
-```bash
+```
 aarch64-linux-musl
 aarch64_be-linux-musl
 arm-linux-musleabi
